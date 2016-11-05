@@ -7,23 +7,157 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		100882391DCDCCDC0008A1A7 /* demon_1_sword.png in Resources */ = {isa = PBXBuildFile; fileRef = 100882371DCDCCDC0008A1A7 /* demon_1_sword.png */; };
+		1008823A1DCDCCDC0008A1A7 /* demon_2_sword.png in Resources */ = {isa = PBXBuildFile; fileRef = 100882381DCDCCDC0008A1A7 /* demon_2_sword.png */; };
+		100882401DCDCD7D0008A1A7 /* demon_1_shooting.png in Resources */ = {isa = PBXBuildFile; fileRef = 1008823C1DCDCD7D0008A1A7 /* demon_1_shooting.png */; };
+		100882421DCDCD7D0008A1A7 /* demon_2_shooting.png in Resources */ = {isa = PBXBuildFile; fileRef = 1008823E1DCDCD7D0008A1A7 /* demon_2_shooting.png */; };
+		100882471DCDCF2A0008A1A7 /* demon_1_sword.gif in Resources */ = {isa = PBXBuildFile; fileRef = 100882451DCDCF2A0008A1A7 /* demon_1_sword.gif */; };
+		100882481DCDCF2A0008A1A7 /* demon_1_shooting.gif in Resources */ = {isa = PBXBuildFile; fileRef = 100882461DCDCF2A0008A1A7 /* demon_1_shooting.gif */; };
+		1008824A1DCDCFC70008A1A7 /* demon_2_shooting.gif in Resources */ = {isa = PBXBuildFile; fileRef = 100882491DCDCFC70008A1A7 /* demon_2_shooting.gif */; };
+		1008824C1DCDD0040008A1A7 /* demon_2_sword.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1008824B1DCDD0040008A1A7 /* demon_2_sword.gif */; };
+		105F9E931DCD84A900810C37 /* sign_up_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 105F9E8F1DCD84A900810C37 /* sign_up_button.png */; };
+		105F9E941DCD84A900810C37 /* sign_up_button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 105F9E901DCD84A900810C37 /* sign_up_button@3x.png */; };
+		105F9E951DCD84A900810C37 /* signup_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 105F9E911DCD84A900810C37 /* signup_logo.png */; };
+		105F9E961DCD84A900810C37 /* signup_logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 105F9E921DCD84A900810C37 /* signup_logo@3x.png */; };
+		105F9E981DCD863C00810C37 /* CreateCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105F9E971DCD863C00810C37 /* CreateCharacterViewController.swift */; };
+		105F9E9B1DCD932D00810C37 /* screen_creacio_faccio_droid.png in Resources */ = {isa = PBXBuildFile; fileRef = 105F9E991DCD932D00810C37 /* screen_creacio_faccio_droid.png */; };
+		105F9E9C1DCD932D00810C37 /* screen_creacio_faccio_god.png in Resources */ = {isa = PBXBuildFile; fileRef = 105F9E9A1DCD932D00810C37 /* screen_creacio_faccio_god.png */; };
+		105F9E9E1DCD94A500810C37 /* next_button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 105F9E9D1DCD94A500810C37 /* next_button@3x.png */; };
+		105F9EA41DCD974C00810C37 /* screen_creacio_faccio_GOD_warrior-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 105F9EA11DCD974C00810C37 /* screen_creacio_faccio_GOD_warrior-01.png */; };
+		105F9EA61DCD98C600810C37 /* CategoryGodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105F9EA51DCD98C600810C37 /* CategoryGodViewController.swift */; };
+		105F9EA81DCD98E000810C37 /* CategoryDroidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105F9EA71DCD98E000810C37 /* CategoryDroidViewController.swift */; };
+		105F9EAC1DCD9E4700810C37 /* screen_creacio_faccio_DROID_destructor-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 105F9EA91DCD9E4700810C37 /* screen_creacio_faccio_DROID_destructor-01.png */; };
+		105F9EAD1DCD9E4700810C37 /* screen_creacio_faccio_DROID_spy-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 105F9EAA1DCD9E4700810C37 /* screen_creacio_faccio_DROID_spy-01.png */; };
+		105F9EAE1DCD9E4700810C37 /* screen_creacio_faccio_DROID_technic-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 105F9EAB1DCD9E4700810C37 /* screen_creacio_faccio_DROID_technic-01.png */; };
+		105F9EB11DCD9FE800810C37 /* screen_creacio_faccio_GOD_profet-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 105F9EAF1DCD9FE800810C37 /* screen_creacio_faccio_GOD_profet-01.png */; };
+		105F9EB21DCD9FE800810C37 /* screen_creacio_faccio_GOD_spy-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 105F9EB01DCD9FE800810C37 /* screen_creacio_faccio_GOD_spy-01.png */; };
 		106D56041DCCB1B800C60AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106D56031DCCB1B800C60AE1 /* AppDelegate.swift */; };
 		106D56061DCCB1B800C60AE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106D56051DCCB1B800C60AE1 /* ViewController.swift */; };
 		106D56091DCCB1B800C60AE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 106D56071DCCB1B800C60AE1 /* Main.storyboard */; };
 		106D560C1DCCB1B800C60AE1 /* GodsVsAndroid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 106D560A1DCCB1B800C60AE1 /* GodsVsAndroid.xcdatamodeld */; };
-		106D560E1DCCB1B800C60AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106D560D1DCCB1B800C60AE1 /* Assets.xcassets */; };
 		106D56111DCCB1B800C60AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 106D560F1DCCB1B800C60AE1 /* LaunchScreen.storyboard */; };
+		106D561A1DCCCCB600C60AE1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 106D56191DCCCCB600C60AE1 /* MapKit.framework */; };
+		106D561C1DCCCE8700C60AE1 /* PlayerPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106D561B1DCCCE8700C60AE1 /* PlayerPosition.swift */; };
+		106D561E1DCCD26600C60AE1 /* PlayersPositions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 106D561D1DCCD26600C60AE1 /* PlayersPositions.plist */; };
+		106D56201DCCF6CB00C60AE1 /* ShootingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106D561F1DCCF6CB00C60AE1 /* ShootingViewController.swift */; };
+		106D56221DCCF6EB00C60AE1 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 106D56211DCCF6EA00C60AE1 /* CoreMotion.framework */; };
+		10742C021DCD61E100EC2D15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10742C011DCD61E100EC2D15 /* Images.xcassets */; };
+		10742C041DCD6A7C00EC2D15 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10742C031DCD6A7C00EC2D15 /* LoginViewController.swift */; };
+		10742C0D1DCD6E2300EC2D15 /* logo_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 10742C0B1DCD6E2300EC2D15 /* logo_login.png */; };
+		10742C0E1DCD6E2300EC2D15 /* logo_login@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10742C0C1DCD6E2300EC2D15 /* logo_login@3x.png */; };
+		10742C111DCD6E8E00EC2D15 /* Touch-ID_1_.png in Resources */ = {isa = PBXBuildFile; fileRef = 10742C0F1DCD6E8E00EC2D15 /* Touch-ID_1_.png */; };
+		10742C121DCD6E8E00EC2D15 /* Touch-ID_1_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10742C101DCD6E8E00EC2D15 /* Touch-ID_1_@3x.png */; };
+		10742C141DCD792500EC2D15 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10742C131DCD792500EC2D15 /* SignupViewController.swift */; };
+		10BA7C211DCDA93A002F4D7A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BA7C201DCDA93A002F4D7A /* ProfileViewController.swift */; };
+		10BA7C251DCDB42F002F4D7A /* screen_stats_GOD-01-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 10BA7C241DCDB42F002F4D7A /* screen_stats_GOD-01-01.png */; };
+		10BA7C271DCDB5A0002F4D7A /* screen_stats_GOD_punts-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 10BA7C261DCDB5A0002F4D7A /* screen_stats_GOD_punts-01.png */; };
+		10BA7C291DCDB644002F4D7A /* PuntsEstrellaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BA7C281DCDB644002F4D7A /* PuntsEstrellaViewController.swift */; };
+		10BA7C2B1DCDB811002F4D7A /* screen_stats_GOD_starbucks-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 10BA7C2A1DCDB811002F4D7A /* screen_stats_GOD_starbucks-01.png */; };
+		10BA7C2D1DCDB854002F4D7A /* StarbucksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BA7C2C1DCDB854002F4D7A /* StarbucksViewController.swift */; };
+		10BA7C2F1DCDC03F002F4D7A /* NikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BA7C2E1DCDC03F002F4D7A /* NikeViewController.swift */; };
+		10BA7C311DCDC08D002F4D7A /* screen_stats_GOD_nike-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 10BA7C301DCDC08D002F4D7A /* screen_stats_GOD_nike-01.png */; };
+		10BA7C331DCDC7DF002F4D7A /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 10BA7C321DCDC7DF002F4D7A /* eye.png */; };
+		10C11AEB1DCD4A16006E9A0B /* droid wins@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C11AEA1DCD4A16006E9A0B /* droid wins@2x.png */; };
+		10C11AEE1DCD5302006E9A0B /* droid shooting_static.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C11AEC1DCD5302006E9A0B /* droid shooting_static.png */; };
+		10C11AEF1DCD5302006E9A0B /* droid shooting.gif in Resources */ = {isa = PBXBuildFile; fileRef = 10C11AED1DCD5302006E9A0B /* droid shooting.gif */; };
+		10C11AF11DCD530D006E9A0B /* shoot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C11AF01DCD530D006E9A0B /* shoot@3x.png */; };
+		10C11AF71DCD5320006E9A0B /* bull_00@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C11AF21DCD5320006E9A0B /* bull_00@3x.png */; };
+		10C11AF81DCD5320006E9A0B /* bull_01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C11AF31DCD5320006E9A0B /* bull_01@3x.png */; };
+		10C11AF91DCD5320006E9A0B /* bull_02@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C11AF41DCD5320006E9A0B /* bull_02@3x.png */; };
+		10C11AFA1DCD5320006E9A0B /* bull_03@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C11AF51DCD5320006E9A0B /* bull_03@3x.png */; };
+		10C11AFB1DCD5320006E9A0B /* bull_click@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10C11AF61DCD5320006E9A0B /* bull_click@3x.png */; };
+		10D868551DCD0BC300425C4A /* SwordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D868541DCD0BC300425C4A /* SwordsViewController.swift */; };
+		10D868571DCD2A5400425C4A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D868561DCD2A5400425C4A /* Player.swift */; };
+		10D8685F1DCD330E00425C4A /* BattleC_0@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D868591DCD330E00425C4A /* BattleC_0@3x.png */; };
+		10D868611DCD330E00425C4A /* BattleC_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D8685B1DCD330E00425C4A /* BattleC_2@3x.png */; };
+		10D868621DCD330E00425C4A /* BattleC_3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D8685C1DCD330E00425C4A /* BattleC_3@3x.png */; };
+		10D868631DCD330E00425C4A /* BattleC_4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D8685D1DCD330E00425C4A /* BattleC_4@3x.png */; };
+		10D868641DCD330E00425C4A /* BattleC_start@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D8685E1DCD330E00425C4A /* BattleC_start@3x.png */; };
+		10D868691DCD334500425C4A /* droid@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D868661DCD334500425C4A /* droid@3x.png */; };
+		10D8686C1DCD364900425C4A /* BattleC_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D8686B1DCD364900425C4A /* BattleC_1@3x.png */; };
+		10D8686E1DCD3DF900425C4A /* android2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 10D8686D1DCD3DF900425C4A /* android2.gif */; };
+		10D868701DCD421700425C4A /* android2_static.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D8686F1DCD421700425C4A /* android2_static.png */; };
+		10D868721DCD445400425C4A /* God wins@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D868711DCD445400425C4A /* God wins@3x.png */; };
+		10D868741DCD45C100425C4A /* blood splatters@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D868731DCD45C100425C4A /* blood splatters@3x.png */; };
+		10D868761DCD462700425C4A /* blood splatters.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D868751DCD462700425C4A /* blood splatters.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		100882371DCDCCDC0008A1A7 /* demon_1_sword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demon_1_sword.png; sourceTree = "<group>"; };
+		100882381DCDCCDC0008A1A7 /* demon_2_sword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demon_2_sword.png; sourceTree = "<group>"; };
+		1008823C1DCDCD7D0008A1A7 /* demon_1_shooting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demon_1_shooting.png; sourceTree = "<group>"; };
+		1008823E1DCDCD7D0008A1A7 /* demon_2_shooting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demon_2_shooting.png; sourceTree = "<group>"; };
+		100882451DCDCF2A0008A1A7 /* demon_1_sword.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demon_1_sword.gif; sourceTree = "<group>"; };
+		100882461DCDCF2A0008A1A7 /* demon_1_shooting.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demon_1_shooting.gif; sourceTree = "<group>"; };
+		100882491DCDCFC70008A1A7 /* demon_2_shooting.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demon_2_shooting.gif; sourceTree = "<group>"; };
+		1008824B1DCDD0040008A1A7 /* demon_2_sword.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demon_2_sword.gif; sourceTree = "<group>"; };
+		105F9E8F1DCD84A900810C37 /* sign_up_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sign_up_button.png; sourceTree = "<group>"; };
+		105F9E901DCD84A900810C37 /* sign_up_button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign_up_button@3x.png"; sourceTree = "<group>"; };
+		105F9E911DCD84A900810C37 /* signup_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signup_logo.png; sourceTree = "<group>"; };
+		105F9E921DCD84A900810C37 /* signup_logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signup_logo@3x.png"; sourceTree = "<group>"; };
+		105F9E971DCD863C00810C37 /* CreateCharacterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCharacterViewController.swift; sourceTree = "<group>"; };
+		105F9E991DCD932D00810C37 /* screen_creacio_faccio_droid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen_creacio_faccio_droid.png; sourceTree = "<group>"; };
+		105F9E9A1DCD932D00810C37 /* screen_creacio_faccio_god.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen_creacio_faccio_god.png; sourceTree = "<group>"; };
+		105F9E9D1DCD94A500810C37 /* next_button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next_button@3x.png"; sourceTree = "<group>"; };
+		105F9EA11DCD974C00810C37 /* screen_creacio_faccio_GOD_warrior-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen_creacio_faccio_GOD_warrior-01.png"; sourceTree = "<group>"; };
+		105F9EA51DCD98C600810C37 /* CategoryGodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryGodViewController.swift; sourceTree = "<group>"; };
+		105F9EA71DCD98E000810C37 /* CategoryDroidViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDroidViewController.swift; sourceTree = "<group>"; };
+		105F9EA91DCD9E4700810C37 /* screen_creacio_faccio_DROID_destructor-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen_creacio_faccio_DROID_destructor-01.png"; sourceTree = "<group>"; };
+		105F9EAA1DCD9E4700810C37 /* screen_creacio_faccio_DROID_spy-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen_creacio_faccio_DROID_spy-01.png"; sourceTree = "<group>"; };
+		105F9EAB1DCD9E4700810C37 /* screen_creacio_faccio_DROID_technic-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen_creacio_faccio_DROID_technic-01.png"; sourceTree = "<group>"; };
+		105F9EAF1DCD9FE800810C37 /* screen_creacio_faccio_GOD_profet-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen_creacio_faccio_GOD_profet-01.png"; sourceTree = "<group>"; };
+		105F9EB01DCD9FE800810C37 /* screen_creacio_faccio_GOD_spy-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen_creacio_faccio_GOD_spy-01.png"; sourceTree = "<group>"; };
 		106D56001DCCB1B800C60AE1 /* GodsVsAndroid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GodsVsAndroid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		106D56031DCCB1B800C60AE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		106D56051DCCB1B800C60AE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		106D56081DCCB1B800C60AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		106D560B1DCCB1B800C60AE1 /* GodsVsAndroid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GodsVsAndroid.xcdatamodel; sourceTree = "<group>"; };
-		106D560D1DCCB1B800C60AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		106D56101DCCB1B800C60AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		106D56121DCCB1B800C60AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		106D56191DCCCCB600C60AE1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		106D561B1DCCCE8700C60AE1 /* PlayerPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerPosition.swift; sourceTree = "<group>"; };
+		106D561D1DCCD26600C60AE1 /* PlayersPositions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PlayersPositions.plist; sourceTree = "<group>"; };
+		106D561F1DCCF6CB00C60AE1 /* ShootingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShootingViewController.swift; sourceTree = "<group>"; };
+		106D56211DCCF6EA00C60AE1 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		10742C011DCD61E100EC2D15 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		10742C031DCD6A7C00EC2D15 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		10742C0B1DCD6E2300EC2D15 /* logo_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_login.png; sourceTree = "<group>"; };
+		10742C0C1DCD6E2300EC2D15 /* logo_login@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_login@3x.png"; sourceTree = "<group>"; };
+		10742C0F1DCD6E8E00EC2D15 /* Touch-ID_1_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Touch-ID_1_.png"; sourceTree = "<group>"; };
+		10742C101DCD6E8E00EC2D15 /* Touch-ID_1_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Touch-ID_1_@3x.png"; sourceTree = "<group>"; };
+		10742C131DCD792500EC2D15 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		10BA7C201DCDA93A002F4D7A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		10BA7C241DCDB42F002F4D7A /* screen_stats_GOD-01-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen_stats_GOD-01-01.png"; sourceTree = "<group>"; };
+		10BA7C261DCDB5A0002F4D7A /* screen_stats_GOD_punts-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen_stats_GOD_punts-01.png"; sourceTree = "<group>"; };
+		10BA7C281DCDB644002F4D7A /* PuntsEstrellaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuntsEstrellaViewController.swift; sourceTree = "<group>"; };
+		10BA7C2A1DCDB811002F4D7A /* screen_stats_GOD_starbucks-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen_stats_GOD_starbucks-01.png"; sourceTree = "<group>"; };
+		10BA7C2C1DCDB854002F4D7A /* StarbucksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarbucksViewController.swift; sourceTree = "<group>"; };
+		10BA7C2E1DCDC03F002F4D7A /* NikeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NikeViewController.swift; sourceTree = "<group>"; };
+		10BA7C301DCDC08D002F4D7A /* screen_stats_GOD_nike-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen_stats_GOD_nike-01.png"; sourceTree = "<group>"; };
+		10BA7C321DCDC7DF002F4D7A /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye.png; sourceTree = "<group>"; };
+		10C11AEA1DCD4A16006E9A0B /* droid wins@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "droid wins@2x.png"; sourceTree = "<group>"; };
+		10C11AEC1DCD5302006E9A0B /* droid shooting_static.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "droid shooting_static.png"; sourceTree = "<group>"; };
+		10C11AED1DCD5302006E9A0B /* droid shooting.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "droid shooting.gif"; sourceTree = "<group>"; };
+		10C11AF01DCD530D006E9A0B /* shoot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shoot@3x.png"; sourceTree = "<group>"; };
+		10C11AF21DCD5320006E9A0B /* bull_00@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bull_00@3x.png"; sourceTree = "<group>"; };
+		10C11AF31DCD5320006E9A0B /* bull_01@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bull_01@3x.png"; sourceTree = "<group>"; };
+		10C11AF41DCD5320006E9A0B /* bull_02@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bull_02@3x.png"; sourceTree = "<group>"; };
+		10C11AF51DCD5320006E9A0B /* bull_03@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bull_03@3x.png"; sourceTree = "<group>"; };
+		10C11AF61DCD5320006E9A0B /* bull_click@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bull_click@3x.png"; sourceTree = "<group>"; };
+		10D868541DCD0BC300425C4A /* SwordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwordsViewController.swift; sourceTree = "<group>"; };
+		10D868561DCD2A5400425C4A /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		10D868591DCD330E00425C4A /* BattleC_0@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BattleC_0@3x.png"; sourceTree = "<group>"; };
+		10D8685B1DCD330E00425C4A /* BattleC_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BattleC_2@3x.png"; sourceTree = "<group>"; };
+		10D8685C1DCD330E00425C4A /* BattleC_3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BattleC_3@3x.png"; sourceTree = "<group>"; };
+		10D8685D1DCD330E00425C4A /* BattleC_4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BattleC_4@3x.png"; sourceTree = "<group>"; };
+		10D8685E1DCD330E00425C4A /* BattleC_start@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BattleC_start@3x.png"; sourceTree = "<group>"; };
+		10D868661DCD334500425C4A /* droid@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "droid@3x.png"; sourceTree = "<group>"; };
+		10D8686B1DCD364900425C4A /* BattleC_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BattleC_1@3x.png"; sourceTree = "<group>"; };
+		10D8686D1DCD3DF900425C4A /* android2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = android2.gif; sourceTree = "<group>"; };
+		10D8686F1DCD421700425C4A /* android2_static.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = android2_static.png; sourceTree = "<group>"; };
+		10D868711DCD445400425C4A /* God wins@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "God wins@3x.png"; sourceTree = "<group>"; };
+		10D868731DCD45C100425C4A /* blood splatters@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blood splatters@3x.png"; sourceTree = "<group>"; };
+		10D868751DCD462700425C4A /* blood splatters.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blood splatters.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +165,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				106D56221DCCF6EB00C60AE1 /* CoreMotion.framework in Frameworks */,
+				106D561A1DCCCCB600C60AE1 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +178,7 @@
 			children = (
 				106D56021DCCB1B800C60AE1 /* GodsVsAndroid */,
 				106D56011DCCB1B800C60AE1 /* Products */,
+				106D56181DCCCCB500C60AE1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +193,97 @@
 		106D56021DCCB1B800C60AE1 /* GodsVsAndroid */ = {
 			isa = PBXGroup;
 			children = (
+				10D868581DCD32FF00425C4A /* Images */,
+				106D561D1DCCD26600C60AE1 /* PlayersPositions.plist */,
 				106D56031DCCB1B800C60AE1 /* AppDelegate.swift */,
 				106D56051DCCB1B800C60AE1 /* ViewController.swift */,
 				106D56071DCCB1B800C60AE1 /* Main.storyboard */,
-				106D560D1DCCB1B800C60AE1 /* Assets.xcassets */,
+				10742C031DCD6A7C00EC2D15 /* LoginViewController.swift */,
+				10742C131DCD792500EC2D15 /* SignupViewController.swift */,
+				105F9E971DCD863C00810C37 /* CreateCharacterViewController.swift */,
+				105F9EA51DCD98C600810C37 /* CategoryGodViewController.swift */,
+				105F9EA71DCD98E000810C37 /* CategoryDroidViewController.swift */,
+				10BA7C201DCDA93A002F4D7A /* ProfileViewController.swift */,
+				10BA7C281DCDB644002F4D7A /* PuntsEstrellaViewController.swift */,
+				10BA7C2C1DCDB854002F4D7A /* StarbucksViewController.swift */,
+				10BA7C2E1DCDC03F002F4D7A /* NikeViewController.swift */,
+				106D561B1DCCCE8700C60AE1 /* PlayerPosition.swift */,
+				106D561F1DCCF6CB00C60AE1 /* ShootingViewController.swift */,
+				10D868541DCD0BC300425C4A /* SwordsViewController.swift */,
 				106D560F1DCCB1B800C60AE1 /* LaunchScreen.storyboard */,
 				106D56121DCCB1B800C60AE1 /* Info.plist */,
 				106D560A1DCCB1B800C60AE1 /* GodsVsAndroid.xcdatamodeld */,
+				10D868561DCD2A5400425C4A /* Player.swift */,
+				10742C011DCD61E100EC2D15 /* Images.xcassets */,
 			);
 			path = GodsVsAndroid;
+			sourceTree = "<group>";
+		};
+		106D56181DCCCCB500C60AE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				106D56211DCCF6EA00C60AE1 /* CoreMotion.framework */,
+				106D56191DCCCCB600C60AE1 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10D868581DCD32FF00425C4A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				10D868591DCD330E00425C4A /* BattleC_0@3x.png */,
+				10D8686B1DCD364900425C4A /* BattleC_1@3x.png */,
+				10D8685B1DCD330E00425C4A /* BattleC_2@3x.png */,
+				10D8685C1DCD330E00425C4A /* BattleC_3@3x.png */,
+				10D8685D1DCD330E00425C4A /* BattleC_4@3x.png */,
+				10D8685E1DCD330E00425C4A /* BattleC_start@3x.png */,
+				10C11AEA1DCD4A16006E9A0B /* droid wins@2x.png */,
+				10D868661DCD334500425C4A /* droid@3x.png */,
+				10D8686D1DCD3DF900425C4A /* android2.gif */,
+				10D8686F1DCD421700425C4A /* android2_static.png */,
+				10D868711DCD445400425C4A /* God wins@3x.png */,
+				10D868751DCD462700425C4A /* blood splatters.png */,
+				10D868731DCD45C100425C4A /* blood splatters@3x.png */,
+				10C11AEC1DCD5302006E9A0B /* droid shooting_static.png */,
+				10C11AED1DCD5302006E9A0B /* droid shooting.gif */,
+				10C11AF01DCD530D006E9A0B /* shoot@3x.png */,
+				10C11AF21DCD5320006E9A0B /* bull_00@3x.png */,
+				10C11AF31DCD5320006E9A0B /* bull_01@3x.png */,
+				10C11AF41DCD5320006E9A0B /* bull_02@3x.png */,
+				10C11AF51DCD5320006E9A0B /* bull_03@3x.png */,
+				10C11AF61DCD5320006E9A0B /* bull_click@3x.png */,
+				10742C0B1DCD6E2300EC2D15 /* logo_login.png */,
+				10742C0C1DCD6E2300EC2D15 /* logo_login@3x.png */,
+				10742C0F1DCD6E8E00EC2D15 /* Touch-ID_1_.png */,
+				10742C101DCD6E8E00EC2D15 /* Touch-ID_1_@3x.png */,
+				105F9E8F1DCD84A900810C37 /* sign_up_button.png */,
+				105F9E901DCD84A900810C37 /* sign_up_button@3x.png */,
+				105F9E911DCD84A900810C37 /* signup_logo.png */,
+				105F9E921DCD84A900810C37 /* signup_logo@3x.png */,
+				105F9E991DCD932D00810C37 /* screen_creacio_faccio_droid.png */,
+				105F9E9A1DCD932D00810C37 /* screen_creacio_faccio_god.png */,
+				105F9E9D1DCD94A500810C37 /* next_button@3x.png */,
+				105F9EAF1DCD9FE800810C37 /* screen_creacio_faccio_GOD_profet-01.png */,
+				105F9EB01DCD9FE800810C37 /* screen_creacio_faccio_GOD_spy-01.png */,
+				105F9EA11DCD974C00810C37 /* screen_creacio_faccio_GOD_warrior-01.png */,
+				105F9EA91DCD9E4700810C37 /* screen_creacio_faccio_DROID_destructor-01.png */,
+				105F9EAA1DCD9E4700810C37 /* screen_creacio_faccio_DROID_spy-01.png */,
+				105F9EAB1DCD9E4700810C37 /* screen_creacio_faccio_DROID_technic-01.png */,
+				10BA7C241DCDB42F002F4D7A /* screen_stats_GOD-01-01.png */,
+				10BA7C261DCDB5A0002F4D7A /* screen_stats_GOD_punts-01.png */,
+				10BA7C2A1DCDB811002F4D7A /* screen_stats_GOD_starbucks-01.png */,
+				10BA7C301DCDC08D002F4D7A /* screen_stats_GOD_nike-01.png */,
+				10BA7C321DCDC7DF002F4D7A /* eye.png */,
+				100882371DCDCCDC0008A1A7 /* demon_1_sword.png */,
+				100882381DCDCCDC0008A1A7 /* demon_2_sword.png */,
+				1008823C1DCDCD7D0008A1A7 /* demon_1_shooting.png */,
+				1008823E1DCDCD7D0008A1A7 /* demon_2_shooting.png */,
+				100882451DCDCF2A0008A1A7 /* demon_1_sword.gif */,
+				100882461DCDCF2A0008A1A7 /* demon_1_shooting.gif */,
+				100882491DCDCFC70008A1A7 /* demon_2_shooting.gif */,
+				1008824B1DCDD0040008A1A7 /* demon_2_sword.gif */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,9 +346,61 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10D868691DCD334500425C4A /* droid@3x.png in Resources */,
+				10742C021DCD61E100EC2D15 /* Images.xcassets in Resources */,
+				105F9E9E1DCD94A500810C37 /* next_button@3x.png in Resources */,
+				105F9EAD1DCD9E4700810C37 /* screen_creacio_faccio_DROID_spy-01.png in Resources */,
+				105F9E961DCD84A900810C37 /* signup_logo@3x.png in Resources */,
+				10D868611DCD330E00425C4A /* BattleC_2@3x.png in Resources */,
+				10D868631DCD330E00425C4A /* BattleC_4@3x.png in Resources */,
+				10BA7C251DCDB42F002F4D7A /* screen_stats_GOD-01-01.png in Resources */,
+				10C11AF11DCD530D006E9A0B /* shoot@3x.png in Resources */,
+				105F9EAE1DCD9E4700810C37 /* screen_creacio_faccio_DROID_technic-01.png in Resources */,
+				10D8686E1DCD3DF900425C4A /* android2.gif in Resources */,
+				10C11AFA1DCD5320006E9A0B /* bull_03@3x.png in Resources */,
+				100882401DCDCD7D0008A1A7 /* demon_1_shooting.png in Resources */,
+				105F9E9C1DCD932D00810C37 /* screen_creacio_faccio_god.png in Resources */,
+				10742C0E1DCD6E2300EC2D15 /* logo_login@3x.png in Resources */,
+				10BA7C331DCDC7DF002F4D7A /* eye.png in Resources */,
+				100882391DCDCCDC0008A1A7 /* demon_1_sword.png in Resources */,
+				10742C111DCD6E8E00EC2D15 /* Touch-ID_1_.png in Resources */,
+				106D561E1DCCD26600C60AE1 /* PlayersPositions.plist in Resources */,
+				10BA7C2B1DCDB811002F4D7A /* screen_stats_GOD_starbucks-01.png in Resources */,
+				1008823A1DCDCCDC0008A1A7 /* demon_2_sword.png in Resources */,
+				10C11AF91DCD5320006E9A0B /* bull_02@3x.png in Resources */,
+				10D868761DCD462700425C4A /* blood splatters.png in Resources */,
+				10C11AEE1DCD5302006E9A0B /* droid shooting_static.png in Resources */,
+				10D868721DCD445400425C4A /* God wins@3x.png in Resources */,
+				10D868741DCD45C100425C4A /* blood splatters@3x.png in Resources */,
+				105F9EB21DCD9FE800810C37 /* screen_creacio_faccio_GOD_spy-01.png in Resources */,
+				10C11AEF1DCD5302006E9A0B /* droid shooting.gif in Resources */,
+				10C11AF81DCD5320006E9A0B /* bull_01@3x.png in Resources */,
+				1008824C1DCDD0040008A1A7 /* demon_2_sword.gif in Resources */,
+				105F9E9B1DCD932D00810C37 /* screen_creacio_faccio_droid.png in Resources */,
+				10D868701DCD421700425C4A /* android2_static.png in Resources */,
+				105F9EAC1DCD9E4700810C37 /* screen_creacio_faccio_DROID_destructor-01.png in Resources */,
+				10C11AFB1DCD5320006E9A0B /* bull_click@3x.png in Resources */,
+				105F9EB11DCD9FE800810C37 /* screen_creacio_faccio_GOD_profet-01.png in Resources */,
+				100882481DCDCF2A0008A1A7 /* demon_1_shooting.gif in Resources */,
+				10742C0D1DCD6E2300EC2D15 /* logo_login.png in Resources */,
+				10C11AEB1DCD4A16006E9A0B /* droid wins@2x.png in Resources */,
+				105F9E931DCD84A900810C37 /* sign_up_button.png in Resources */,
+				100882421DCDCD7D0008A1A7 /* demon_2_shooting.png in Resources */,
 				106D56111DCCB1B800C60AE1 /* LaunchScreen.storyboard in Resources */,
-				106D560E1DCCB1B800C60AE1 /* Assets.xcassets in Resources */,
 				106D56091DCCB1B800C60AE1 /* Main.storyboard in Resources */,
+				105F9E951DCD84A900810C37 /* signup_logo.png in Resources */,
+				10D8685F1DCD330E00425C4A /* BattleC_0@3x.png in Resources */,
+				10D8686C1DCD364900425C4A /* BattleC_1@3x.png in Resources */,
+				10BA7C311DCDC08D002F4D7A /* screen_stats_GOD_nike-01.png in Resources */,
+				10D868641DCD330E00425C4A /* BattleC_start@3x.png in Resources */,
+				10BA7C271DCDB5A0002F4D7A /* screen_stats_GOD_punts-01.png in Resources */,
+				10D868621DCD330E00425C4A /* BattleC_3@3x.png in Resources */,
+				105F9EA41DCD974C00810C37 /* screen_creacio_faccio_GOD_warrior-01.png in Resources */,
+				10C11AF71DCD5320006E9A0B /* bull_00@3x.png in Resources */,
+				105F9E941DCD84A900810C37 /* sign_up_button@3x.png in Resources */,
+				1008824A1DCDCFC70008A1A7 /* demon_2_shooting.gif in Resources */,
+				100882471DCDCF2A0008A1A7 /* demon_1_sword.gif in Resources */,
+				10742C121DCD6E8E00EC2D15 /* Touch-ID_1_@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +411,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10742C141DCD792500EC2D15 /* SignupViewController.swift in Sources */,
+				105F9EA81DCD98E000810C37 /* CategoryDroidViewController.swift in Sources */,
+				10D868551DCD0BC300425C4A /* SwordsViewController.swift in Sources */,
 				106D56061DCCB1B800C60AE1 /* ViewController.swift in Sources */,
+				106D561C1DCCCE8700C60AE1 /* PlayerPosition.swift in Sources */,
+				106D56201DCCF6CB00C60AE1 /* ShootingViewController.swift in Sources */,
+				10742C041DCD6A7C00EC2D15 /* LoginViewController.swift in Sources */,
+				105F9E981DCD863C00810C37 /* CreateCharacterViewController.swift in Sources */,
+				10D868571DCD2A5400425C4A /* Player.swift in Sources */,
+				10BA7C2F1DCDC03F002F4D7A /* NikeViewController.swift in Sources */,
 				106D56041DCCB1B800C60AE1 /* AppDelegate.swift in Sources */,
+				10BA7C211DCDA93A002F4D7A /* ProfileViewController.swift in Sources */,
+				10BA7C291DCDB644002F4D7A /* PuntsEstrellaViewController.swift in Sources */,
+				10BA7C2D1DCDB854002F4D7A /* StarbucksViewController.swift in Sources */,
 				106D560C1DCCB1B800C60AE1 /* GodsVsAndroid.xcdatamodeld in Sources */,
+				105F9EA61DCD98C600810C37 /* CategoryGodViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -251,7 +535,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -263,6 +547,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 8NMS88X9W8;
 				INFOPLIST_FILE = GodsVsAndroid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -276,6 +561,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 8NMS88X9W8;
 				INFOPLIST_FILE = GodsVsAndroid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -304,6 +590,7 @@
 				106D56171DCCB1B800C60AE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
