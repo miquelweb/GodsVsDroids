@@ -13,8 +13,18 @@ import CoreLocation
 class ViewController: UIViewController,MKMapViewDelegate,CLLocationManagerDelegate {
     @IBOutlet weak var mapView: MKMapView!
 
+    @IBOutlet weak var placeView: UIView!
+    @IBOutlet weak var placeImageView: UIImageView!
+    @IBOutlet weak var demonView: UIView!
+    @IBOutlet weak var demonImageView: UIImageView!
+    @IBOutlet weak var swordsBtn: UIButton!
+    @IBOutlet weak var shootingBtn: UIButton!
     @IBOutlet weak var infoView: UIView!
     @IBOutlet weak var nameLbl: UILabel!
+    @IBOutlet weak var subtitleLbl: UILabel!
+    @IBOutlet weak var logoImageView: UIImageView!
+    @IBOutlet weak var lacaixaBtn: UIButton!
+    @IBOutlet weak var starbucksBtn: UIButton!
     var demon:Int = 0
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +43,8 @@ class ViewController: UIViewController,MKMapViewDelegate,CLLocationManagerDelega
         }
         
         infoView.isHidden = true
+        lacaixaBtn.isHidden =  true
+        starbucksBtn.isHidden =  true
         
         let annotations = getMapAnnotations()
         // Add mappoints to Map
@@ -56,14 +68,53 @@ class ViewController: UIViewController,MKMapViewDelegate,CLLocationManagerDelega
         // Dispose of any resources that can be recreated.
     }
 
-    func showInfo(id:Int,name:String){
+    func showInfo(id:Int){
         //NSLog(String(id))
         infoView.isHidden = false
-        nameLbl.text=name;
+        switch id  {
+        case 1:
+            demonView.isHidden = false
+            placeView.isHidden = true
+            logoImageView.image = UIImage(named:"demonavatar.png")
+            lacaixaBtn.isHidden =  true
+            starbucksBtn.isHidden =  true
+            
+            break
+        case 2:
+            demonView.isHidden = false
+            placeView.isHidden = true
+            logoImageView.image = UIImage(named:"demonavatar.png")
+            lacaixaBtn.isHidden =  true
+            starbucksBtn.isHidden =  true
+            
+            break
+        case 3:
+            demonView.isHidden = true
+            placeView.isHidden = false
+            placeImageView.image = UIImage(named:"caixabank_txt.png")
+            logoImageView.image = UIImage(named:"caixabank_avatar.png")
+            lacaixaBtn.isHidden =  false
+            starbucksBtn.isHidden =  true
+            
+            break
+        case 4:
+            demonView.isHidden = true
+            placeView.isHidden = false
+            placeImageView.image = UIImage(named:"starbucks_txt.png")
+            logoImageView.image = UIImage(named:"starbucks_avatar.png")
+            lacaixaBtn.isHidden =  true
+            starbucksBtn.isHidden =  false
+            
+            break
+        default:
+            
+            break
+        }
+
         demon = id
     }
     
-        
+    
     //MARK:- Annotations
     
     func getMapAnnotations() -> [PlayerPosition] {
@@ -85,9 +136,34 @@ class ViewController: UIViewController,MKMapViewDelegate,CLLocationManagerDelega
             let no = (item as AnyObject).value(forKey: "no") as! Int
             let annotation = PlayerPosition(latitude: 41.4172699 + (Double(arc4random_uniform(20)) - 10) / 1000 , longitude: 2.2058407 + (Double(arc4random_uniform(20)) - 10) / 1000, no: no)
             annotation.title = (item as AnyObject).value(forKey: "title") as? String
+            annotation.subtitle = ""
             
             annotations.append(annotation)
         }
+        
+        var no = 3//Servicaixa
+        var annotation = PlayerPosition(latitude: 41.4172699 + (Double(arc4random_uniform(20)) - 10) / 1000 , longitude: 2.2058407 + (Double(arc4random_uniform(20)) - 10) / 1000, no: no)
+        annotation.title = ""
+        annotation.subtitle = ""
+        annotations.append(annotation)
+        
+        annotation = PlayerPosition(latitude: 41.4172699 + (Double(arc4random_uniform(20)) - 10) / 1000 , longitude: 2.2058407 + (Double(arc4random_uniform(20)) - 10) / 1000, no: no)
+        annotation.title = ""
+        annotation.subtitle = ""
+        annotations.append(annotation)
+        
+        
+        annotation = PlayerPosition(latitude: 41.4172699 + (Double(arc4random_uniform(20)) - 10) / 1000 , longitude: 2.2058407 + (Double(arc4random_uniform(20)) - 10) / 1000, no: no)
+        annotation.title = ""
+        annotation.subtitle = ""
+        annotations.append(annotation)
+        
+        no = 4//Starbucks
+        
+        annotation = PlayerPosition(latitude: 41.4172699 + (Double(arc4random_uniform(20)) - 10) / 1000 , longitude: 2.2058407 + (Double(arc4random_uniform(20)) - 10) / 1000, no: no)
+        annotation.title = ""
+        annotation.subtitle = ""
+        annotations.append(annotation)
     }
     
     return annotations
@@ -124,7 +200,25 @@ class ViewController: UIViewController,MKMapViewDelegate,CLLocationManagerDelega
         var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: reuseIdentifier) as? MKPinAnnotationView
         if annotationView == nil {
             annotationView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: reuseIdentifier)
-            annotationView?.image = UIImage(named: "eye.png")
+            
+            let annot = annotation as! PlayerPosition
+            switch annot.no  {
+            case 1:
+                annotationView?.image = UIImage(named: "icono demon.png")
+                break
+            case 2:
+                annotationView?.image = UIImage(named: "icono demon.png")
+                break
+            case 3:
+                annotationView?.image = UIImage(named: "icono caixabank.png")
+                break
+            case 4:
+                annotationView?.image = UIImage(named: "icono starbucks.png")
+                break
+            default:
+                
+                break
+            }
         } else {
             annotationView?.annotation = annotation
         }
@@ -137,7 +231,7 @@ class ViewController: UIViewController,MKMapViewDelegate,CLLocationManagerDelega
           }
           else{
         let annot = view.annotation as! PlayerPosition
-            showInfo(id: annot.no, name:annot.title!);
+            showInfo(id: annot.no);
         }
     }
     
@@ -146,6 +240,7 @@ class ViewController: UIViewController,MKMapViewDelegate,CLLocationManagerDelega
             let polygonView = MKPolygonRenderer(overlay: overlay)
         polygonView.fillColor = UIColor.black
         polygonView.strokeColor = UIColor.black
+        polygonView.alpha = 0.8
         
             return polygonView
         
@@ -172,7 +267,6 @@ class ViewController: UIViewController,MKMapViewDelegate,CLLocationManagerDelega
         }
         
     }
-
 
 }
 

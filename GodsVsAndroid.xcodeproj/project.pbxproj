@@ -15,6 +15,21 @@
 		100882481DCDCF2A0008A1A7 /* demon_1_shooting.gif in Resources */ = {isa = PBXBuildFile; fileRef = 100882461DCDCF2A0008A1A7 /* demon_1_shooting.gif */; };
 		1008824A1DCDCFC70008A1A7 /* demon_2_shooting.gif in Resources */ = {isa = PBXBuildFile; fileRef = 100882491DCDCFC70008A1A7 /* demon_2_shooting.gif */; };
 		1008824C1DCDD0040008A1A7 /* demon_2_sword.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1008824B1DCDD0040008A1A7 /* demon_2_sword.gif */; };
+		1008824E1DCDE1C70008A1A7 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1008824D1DCDE1C70008A1A7 /* BuyViewController.swift */; };
+		100882501DCDE9980008A1A7 /* screen_stats_GOD_credits.png in Resources */ = {isa = PBXBuildFile; fileRef = 1008824F1DCDE9980008A1A7 /* screen_stats_GOD_credits.png */; };
+		100882721DCDF3890008A1A7 /* headbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 100882711DCDF3890008A1A7 /* headbar.png */; };
+		1008827C1DCDF6A40008A1A7 /* caixabank_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 100882791DCDF6A40008A1A7 /* caixabank_avatar.png */; };
+		1008827D1DCDF6A40008A1A7 /* demonavatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1008827A1DCDF6A40008A1A7 /* demonavatar.png */; };
+		1008827E1DCDF6A40008A1A7 /* starbucks_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1008827B1DCDF6A40008A1A7 /* starbucks_avatar.png */; };
+		100882811DCDF7010008A1A7 /* caixabank_txt.png in Resources */ = {isa = PBXBuildFile; fileRef = 1008827F1DCDF7010008A1A7 /* caixabank_txt.png */; };
+		100882821DCDF7010008A1A7 /* starbucks_txt.png in Resources */ = {isa = PBXBuildFile; fileRef = 100882801DCDF7010008A1A7 /* starbucks_txt.png */; };
+		100882851DCDF7580008A1A7 /* gunfight_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 100882831DCDF7580008A1A7 /* gunfight_btn.png */; };
+		100882861DCDF7580008A1A7 /* swordfight_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 100882841DCDF7580008A1A7 /* swordfight_btn.png */; };
+		100882881DCDF7690008A1A7 /* fight48rlife.png in Resources */ = {isa = PBXBuildFile; fileRef = 100882871DCDF7690008A1A7 /* fight48rlife.png */; };
+		1015E6291DCE014F00230A8E /* screen_stats_GOD-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1015E6281DCE014F00230A8E /* screen_stats_GOD-01.png */; };
+		1015E6331DCE0AB800230A8E /* icono starbucks.png in Resources */ = {isa = PBXBuildFile; fileRef = 1015E6301DCE0AB800230A8E /* icono starbucks.png */; };
+		1015E6341DCE0AB800230A8E /* icono caixabank.png in Resources */ = {isa = PBXBuildFile; fileRef = 1015E6311DCE0AB800230A8E /* icono caixabank.png */; };
+		1015E6351DCE0AB800230A8E /* icono demon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1015E6321DCE0AB800230A8E /* icono demon.png */; };
 		105F9E931DCD84A900810C37 /* sign_up_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 105F9E8F1DCD84A900810C37 /* sign_up_button.png */; };
 		105F9E941DCD84A900810C37 /* sign_up_button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 105F9E901DCD84A900810C37 /* sign_up_button@3x.png */; };
 		105F9E951DCD84A900810C37 /* signup_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 105F9E911DCD84A900810C37 /* signup_logo.png */; };
@@ -91,6 +106,21 @@
 		100882461DCDCF2A0008A1A7 /* demon_1_shooting.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demon_1_shooting.gif; sourceTree = "<group>"; };
 		100882491DCDCFC70008A1A7 /* demon_2_shooting.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demon_2_shooting.gif; sourceTree = "<group>"; };
 		1008824B1DCDD0040008A1A7 /* demon_2_sword.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demon_2_sword.gif; sourceTree = "<group>"; };
+		1008824D1DCDE1C70008A1A7 /* BuyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		1008824F1DCDE9980008A1A7 /* screen_stats_GOD_credits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen_stats_GOD_credits.png; sourceTree = "<group>"; };
+		100882711DCDF3890008A1A7 /* headbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headbar.png; sourceTree = "<group>"; };
+		100882791DCDF6A40008A1A7 /* caixabank_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caixabank_avatar.png; sourceTree = "<group>"; };
+		1008827A1DCDF6A40008A1A7 /* demonavatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demonavatar.png; sourceTree = "<group>"; };
+		1008827B1DCDF6A40008A1A7 /* starbucks_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starbucks_avatar.png; sourceTree = "<group>"; };
+		1008827F1DCDF7010008A1A7 /* caixabank_txt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caixabank_txt.png; sourceTree = "<group>"; };
+		100882801DCDF7010008A1A7 /* starbucks_txt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starbucks_txt.png; sourceTree = "<group>"; };
+		100882831DCDF7580008A1A7 /* gunfight_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gunfight_btn.png; sourceTree = "<group>"; };
+		100882841DCDF7580008A1A7 /* swordfight_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swordfight_btn.png; sourceTree = "<group>"; };
+		100882871DCDF7690008A1A7 /* fight48rlife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fight48rlife.png; sourceTree = "<group>"; };
+		1015E6281DCE014F00230A8E /* screen_stats_GOD-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen_stats_GOD-01.png"; sourceTree = "<group>"; };
+		1015E6301DCE0AB800230A8E /* icono starbucks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icono starbucks.png"; sourceTree = "<group>"; };
+		1015E6311DCE0AB800230A8E /* icono caixabank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icono caixabank.png"; sourceTree = "<group>"; };
+		1015E6321DCE0AB800230A8E /* icono demon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icono demon.png"; sourceTree = "<group>"; };
 		105F9E8F1DCD84A900810C37 /* sign_up_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sign_up_button.png; sourceTree = "<group>"; };
 		105F9E901DCD84A900810C37 /* sign_up_button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign_up_button@3x.png"; sourceTree = "<group>"; };
 		105F9E911DCD84A900810C37 /* signup_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signup_logo.png; sourceTree = "<group>"; };
@@ -207,6 +237,7 @@
 				10BA7C281DCDB644002F4D7A /* PuntsEstrellaViewController.swift */,
 				10BA7C2C1DCDB854002F4D7A /* StarbucksViewController.swift */,
 				10BA7C2E1DCDC03F002F4D7A /* NikeViewController.swift */,
+				1008824D1DCDE1C70008A1A7 /* BuyViewController.swift */,
 				106D561B1DCCCE8700C60AE1 /* PlayerPosition.swift */,
 				106D561F1DCCF6CB00C60AE1 /* ShootingViewController.swift */,
 				10D868541DCD0BC300425C4A /* SwordsViewController.swift */,
@@ -273,6 +304,7 @@
 				10BA7C261DCDB5A0002F4D7A /* screen_stats_GOD_punts-01.png */,
 				10BA7C2A1DCDB811002F4D7A /* screen_stats_GOD_starbucks-01.png */,
 				10BA7C301DCDC08D002F4D7A /* screen_stats_GOD_nike-01.png */,
+				1008824F1DCDE9980008A1A7 /* screen_stats_GOD_credits.png */,
 				10BA7C321DCDC7DF002F4D7A /* eye.png */,
 				100882371DCDCCDC0008A1A7 /* demon_1_sword.png */,
 				100882381DCDCCDC0008A1A7 /* demon_2_sword.png */,
@@ -282,6 +314,19 @@
 				100882461DCDCF2A0008A1A7 /* demon_1_shooting.gif */,
 				100882491DCDCFC70008A1A7 /* demon_2_shooting.gif */,
 				1008824B1DCDD0040008A1A7 /* demon_2_sword.gif */,
+				100882711DCDF3890008A1A7 /* headbar.png */,
+				100882791DCDF6A40008A1A7 /* caixabank_avatar.png */,
+				1008827A1DCDF6A40008A1A7 /* demonavatar.png */,
+				1008827F1DCDF7010008A1A7 /* caixabank_txt.png */,
+				100882801DCDF7010008A1A7 /* starbucks_txt.png */,
+				1008827B1DCDF6A40008A1A7 /* starbucks_avatar.png */,
+				100882831DCDF7580008A1A7 /* gunfight_btn.png */,
+				100882841DCDF7580008A1A7 /* swordfight_btn.png */,
+				100882871DCDF7690008A1A7 /* fight48rlife.png */,
+				1015E6281DCE014F00230A8E /* screen_stats_GOD-01.png */,
+				1015E6301DCE0AB800230A8E /* icono starbucks.png */,
+				1015E6311DCE0AB800230A8E /* icono caixabank.png */,
+				1015E6321DCE0AB800230A8E /* icono demon.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -354,23 +399,31 @@
 				10D868611DCD330E00425C4A /* BattleC_2@3x.png in Resources */,
 				10D868631DCD330E00425C4A /* BattleC_4@3x.png in Resources */,
 				10BA7C251DCDB42F002F4D7A /* screen_stats_GOD-01-01.png in Resources */,
+				1008827D1DCDF6A40008A1A7 /* demonavatar.png in Resources */,
 				10C11AF11DCD530D006E9A0B /* shoot@3x.png in Resources */,
+				1008827E1DCDF6A40008A1A7 /* starbucks_avatar.png in Resources */,
 				105F9EAE1DCD9E4700810C37 /* screen_creacio_faccio_DROID_technic-01.png in Resources */,
+				100882861DCDF7580008A1A7 /* swordfight_btn.png in Resources */,
 				10D8686E1DCD3DF900425C4A /* android2.gif in Resources */,
+				1015E6351DCE0AB800230A8E /* icono demon.png in Resources */,
 				10C11AFA1DCD5320006E9A0B /* bull_03@3x.png in Resources */,
 				100882401DCDCD7D0008A1A7 /* demon_1_shooting.png in Resources */,
 				105F9E9C1DCD932D00810C37 /* screen_creacio_faccio_god.png in Resources */,
 				10742C0E1DCD6E2300EC2D15 /* logo_login@3x.png in Resources */,
 				10BA7C331DCDC7DF002F4D7A /* eye.png in Resources */,
 				100882391DCDCCDC0008A1A7 /* demon_1_sword.png in Resources */,
+				1015E6331DCE0AB800230A8E /* icono starbucks.png in Resources */,
 				10742C111DCD6E8E00EC2D15 /* Touch-ID_1_.png in Resources */,
 				106D561E1DCCD26600C60AE1 /* PlayersPositions.plist in Resources */,
+				100882501DCDE9980008A1A7 /* screen_stats_GOD_credits.png in Resources */,
 				10BA7C2B1DCDB811002F4D7A /* screen_stats_GOD_starbucks-01.png in Resources */,
 				1008823A1DCDCCDC0008A1A7 /* demon_2_sword.png in Resources */,
 				10C11AF91DCD5320006E9A0B /* bull_02@3x.png in Resources */,
 				10D868761DCD462700425C4A /* blood splatters.png in Resources */,
+				100882821DCDF7010008A1A7 /* starbucks_txt.png in Resources */,
 				10C11AEE1DCD5302006E9A0B /* droid shooting_static.png in Resources */,
 				10D868721DCD445400425C4A /* God wins@3x.png in Resources */,
+				1008827C1DCDF6A40008A1A7 /* caixabank_avatar.png in Resources */,
 				10D868741DCD45C100425C4A /* blood splatters@3x.png in Resources */,
 				105F9EB21DCD9FE800810C37 /* screen_creacio_faccio_GOD_spy-01.png in Resources */,
 				10C11AEF1DCD5302006E9A0B /* droid shooting.gif in Resources */,
@@ -380,8 +433,10 @@
 				10D868701DCD421700425C4A /* android2_static.png in Resources */,
 				105F9EAC1DCD9E4700810C37 /* screen_creacio_faccio_DROID_destructor-01.png in Resources */,
 				10C11AFB1DCD5320006E9A0B /* bull_click@3x.png in Resources */,
+				100882881DCDF7690008A1A7 /* fight48rlife.png in Resources */,
 				105F9EB11DCD9FE800810C37 /* screen_creacio_faccio_GOD_profet-01.png in Resources */,
 				100882481DCDCF2A0008A1A7 /* demon_1_shooting.gif in Resources */,
+				100882851DCDF7580008A1A7 /* gunfight_btn.png in Resources */,
 				10742C0D1DCD6E2300EC2D15 /* logo_login.png in Resources */,
 				10C11AEB1DCD4A16006E9A0B /* droid wins@2x.png in Resources */,
 				105F9E931DCD84A900810C37 /* sign_up_button.png in Resources */,
@@ -394,6 +449,10 @@
 				10BA7C311DCDC08D002F4D7A /* screen_stats_GOD_nike-01.png in Resources */,
 				10D868641DCD330E00425C4A /* BattleC_start@3x.png in Resources */,
 				10BA7C271DCDB5A0002F4D7A /* screen_stats_GOD_punts-01.png in Resources */,
+				1015E6291DCE014F00230A8E /* screen_stats_GOD-01.png in Resources */,
+				100882811DCDF7010008A1A7 /* caixabank_txt.png in Resources */,
+				100882721DCDF3890008A1A7 /* headbar.png in Resources */,
+				1015E6341DCE0AB800230A8E /* icono caixabank.png in Resources */,
 				10D868621DCD330E00425C4A /* BattleC_3@3x.png in Resources */,
 				105F9EA41DCD974C00810C37 /* screen_creacio_faccio_GOD_warrior-01.png in Resources */,
 				10C11AF71DCD5320006E9A0B /* bull_00@3x.png in Resources */,
@@ -426,6 +485,7 @@
 				10BA7C291DCDB644002F4D7A /* PuntsEstrellaViewController.swift in Sources */,
 				10BA7C2D1DCDB854002F4D7A /* StarbucksViewController.swift in Sources */,
 				106D560C1DCCB1B800C60AE1 /* GodsVsAndroid.xcdatamodeld in Sources */,
+				1008824E1DCDE1C70008A1A7 /* BuyViewController.swift in Sources */,
 				105F9EA61DCD98C600810C37 /* CategoryGodViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

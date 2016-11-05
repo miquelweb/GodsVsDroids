@@ -56,10 +56,14 @@ class SwordsViewController: UIViewController {
     
         sleep(1)
         AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+        let systemSoundID: SystemSoundID = 1013
+        AudioServicesPlaySystemSound (systemSoundID)
         sleep(1)
         AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+        AudioServicesPlaySystemSound (systemSoundID)
         sleep(1)
         AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+        AudioServicesPlaySystemSound (systemSoundID)
         
         self.bgImageView.isHidden = true
         
@@ -110,10 +114,10 @@ class SwordsViewController: UIViewController {
                     
                 case 3:
                     if ((deviceManager?.userAcceleration.z)! < Double(-self.bigSensor)) &&
-                        ((deviceManager?.userAcceleration.x)! < Double(self.smallSensor)) &&
-                        ((deviceManager?.userAcceleration.x)! > Double(-self.smallSensor)) &&
-                        ((deviceManager?.userAcceleration.y)! < Double(self.smallSensor)) &&
-                        ((deviceManager?.userAcceleration.y)! > Double(-self.smallSensor)) {
+                        ((deviceManager?.userAcceleration.x)! < Double(self.bigSensor)) &&
+                        ((deviceManager?.userAcceleration.x)! > Double(-self.bigSensor)) &&
+                        ((deviceManager?.userAcceleration.y)! < Double(self.bigSensor)) &&
+                        ((deviceManager?.userAcceleration.y)! > Double(-self.bigSensor)) {
                         self.gestureImg.image = UIImage(named: "BattleC_4.png")
                         
                         self.bgImageView.isHidden = false
@@ -122,7 +126,7 @@ class SwordsViewController: UIViewController {
                         self.motionManager.stopDeviceMotionUpdates()
                         print( String (self.time))
                         
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                             self.gestureImg.isHidden = true;
                             
                             if self.time < Double(500){
@@ -131,7 +135,7 @@ class SwordsViewController: UIViewController {
                             }
                             else{
                                 self.splatterImageView.isHidden = false
-                                 DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                                 DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                                 self.redView.isHidden = false
                                 self.droidWinsImageView.isHidden = false
                                 

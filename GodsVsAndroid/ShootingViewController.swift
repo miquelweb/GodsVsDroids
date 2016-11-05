@@ -46,6 +46,7 @@ class ShootingViewController: UIViewController {
         let gif = NSData(contentsOfFile: filePath!)
         
         
+        
         bgWebView.load(gif! as Data, mimeType: "image/gif", textEncodingName: String(), baseURL: NSURL() as URL)
         
         
@@ -62,12 +63,20 @@ class ShootingViewController: UIViewController {
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             self.bullImageView.image = UIImage(named:"bull_01.png")
             AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+            
+            let systemSoundID: SystemSoundID = 1013
+            AudioServicesPlaySystemSound (systemSoundID)
+            
             DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                 self.bullImageView.image = UIImage(named:"bull_02.png")
                 AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+                let systemSoundID: SystemSoundID = 1013
+                AudioServicesPlaySystemSound (systemSoundID)
                 DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                     self.bullImageView.image = UIImage(named:"bull_03.png")
                     AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+                    let systemSoundID: SystemSoundID = 1013
+                    AudioServicesPlaySystemSound (systemSoundID)
                     self.time = 0.0
         
                     self.bgImageView.isHidden = true
@@ -92,7 +101,7 @@ class ShootingViewController: UIViewController {
         
         motionManager.stopDeviceMotionUpdates()
         self.bgImageView.isHidden = false
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             self.bullImageView.isHidden = true
             self.shootImageView.isHidden = true
             self.shootBtn.isHidden = true
@@ -104,7 +113,7 @@ class ShootingViewController: UIViewController {
             }
             else{
                 self.splatterImageView.isHidden = false
-                DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                     self.redView.isHidden = false
                     self.droidWinsImageView.isHidden = false
                     

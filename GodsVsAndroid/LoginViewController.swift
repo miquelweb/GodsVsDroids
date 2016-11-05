@@ -67,19 +67,19 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
     func loadData(){
         let userDefaults = UserDefaults.standard
         
-        if  userDefaults.value(forKey: "PlayerName") != nil {
+        /*if  userDefaults.value(forKey: "PlayerName") != nil {
             let playerName: String = userDefaults.value(forKey: "PlayerName") as! String
             print (playerName)
             performSegue(withIdentifier: "MapSegue", sender: nil)
         }
         else{
             print ("No player")
-        }
+        }*/
         
     }
 
     @IBAction func touchBtnPress(_ sender: Any) {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             self.performSegue(withIdentifier: "MapSegue", sender: nil)
             
         }
